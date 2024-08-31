@@ -1,0 +1,35 @@
+body{
+font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.img_stack{
+    display: flex;
+flex-direction: column;
+}
+h1{
+   /* display: flex;
+   justify-content: center;  */
+   text-align: center;
+   color: #BED459;
+   font-size: 40px;
+font-weight: 600;
+text-transform: capitalize;
+}
+p{
+padding: 0 20px;
+
+}
+.contact_details{
+display: flex;
+align-items: center;
+color: gray;
+padding-left: 20px;
+}
+
+.img_stack img{
+ width: 400px;
+ height: 200px;
+ border-radius: 10px;
+ object-fit: cover;
+}
+
+
